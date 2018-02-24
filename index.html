@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Splash! — Front-Commerce</title>
+
+  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto+Condensed%3A700%2C400%2C300italic%7CRoboto%3A300&#038;ver=1517824551'
+    type='text/css' media='all' />
+</head>
+
+<body>
+  <div id="catalog" />
+
+  <!-- Use the development version to get helpful errors in your console -->
+  <!-- <script src="dist/catalog-standalone.development.js"></script> -->
+
+  <!-- Use the minified production version to get optimal performance -->
+  <script src="dist/catalog-standalone.min.js"></script>
+
+  <script>
+    Catalog.render({
+      title: 'Splash!',
+      logoSrc: 'assets/logos/Column/fc-logo_2018--columnNoWhite@2x.png',
+      theme: {
+        // Fonts
+        fontFamily: 'Roboto Condensed',
+
+        // Colors
+        background: '#FAFAFA',
+        textColor: '#333333',
+        codeColor: '#00263E',
+        linkColor: '#4A6BDD',
+
+        // NavigationBar background color, but also sometimes used as a foreground
+        // or border color.
+        lightColor: '#676767',
+
+        // Used in PageHeader
+        pageHeadingBackground: '#4A6BDD',
+        pageHeadingTextColor: '#fff',
+
+        // Used in Menu and PageHeader to make sure the top parts have
+        // the same height.
+        pageHeadingHeight: 200,
+
+        // Used for navigation bar
+        navBarBackground: '#4A6BDD',
+        navBarTextColor: '#FFFFFF',
+
+        // Used in ResponsiveTabs (tab text), Download specimen (title text).
+        // Typography: headings.
+        brandColor: '#4A6BDD',
+
+        sidebarColor: '#FFFFFF',
+        sidebarColorActive: '#FAFAFA',
+        sidebarColorText: '#333333',
+        sidebarColorTextActive: '#4A6BDD',
+        sidebarColorLine: '#f1f2f3',
+        sidebarColorHeading: '#333333',
+
+        // Used in the html, react, and image specimens.
+        bgLight: '#FAFAFA',
+        bgDark: '#333333',
+      },
+      pages: [
+        {
+          path: '/',
+          title: 'Introduction',
+          src: 'docs/intro.md'
+        },
+        {
+          path: '/colors',
+          title: 'Colors',
+          src: 'docs/colors.md'
+        },
+        {
+          path: '/typography',
+          title: 'Typography',
+          src: 'docs/typography.md'
+        },
+        {
+          path: '/logos',
+          title: 'Logos',
+          src: 'docs/logos.md'
+        },
+      ]
+    }, document.getElementById('catalog'));
+  </script>
+</body>
+
+</html>

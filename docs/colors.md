@@ -20,11 +20,10 @@ name: 'Background light'
 span: 3
 ```
 
-## Gradients
-
-```hint
-**TODO** This section needs to be documented
-* Primary: `#4A6BDD` -> `#4A6BDD` 0.1
+```color
+value: "linear-gradient(90deg, #4A6BDD 0%, rgba(74,107,221,0.1) 100%)"
+name: 'Primary gradient'
+span: 6
 ```
 
 ## Texts

@@ -56,10 +56,29 @@ colors:
 
 ## Overlays
 
-```hint
-**TODO** This section needs to be documented
-* 60%
-* primary (`#4A6BDD`)
-* white (`#FFFFFF`)
-* black (`#333333`)
+```image
+span: 2
+plain: true
+src: "/assets/overlays/overlay-primary.png"
+title: "Primary overlay"
+description: |
+  #4A6BDD 60%
+```
+
+```image
+span: 2
+plain: true
+src: "/assets/overlays/overlay-black.png"
+title: "Black overlay"
+description: |
+  #333333 60%
+```
+
+```image
+span: 2
+plain: true
+src: "/assets/overlays/overlay-white.png"
+title: "White overlay"
+description: |
+  #FFFFFF 60%
 ```

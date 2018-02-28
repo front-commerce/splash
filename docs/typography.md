@@ -66,11 +66,20 @@ _This is an italic text - $italic - 400_
 }
 ```
 
+**Specific text size**
+
+You should avoid using text sizes which are not included in this styleguide. They add consistency and hierarchy to the
+content and were created with these objectives.
+
+In case you **must** add a new text size (to answer an accessibility problem for example), don't forget to add it to
+the styleguide, with the appropriate line-height.
+
+
 ## Line height:
 
 The line height is determined by the following equation :
 `font-size + (font-size / 2)`.
 
-In case of an odd number (like 13px), the result of the equation should be rounded to the `number+1`.
+In case of an odd number (like 13px), the result of the equation should be rounded to the `superior number`.
 
-Example: `13 + (13/2) != 20`
+Example: With a 13px text size, line-height would be : `13 + (13/2) = 19,5` rounded to `20`.

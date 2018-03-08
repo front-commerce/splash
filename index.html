@@ -101,6 +101,12 @@
       ]
     }, document.getElementById('catalog'));
   </script>
+
+  <script>
+    if (navigator.serviceWorker && !navigator.serviceWorker.controller) {
+      navigator.serviceWorker.register('/serviceworker.js');
+    }
+  </script>
 </body>
 
 </html>

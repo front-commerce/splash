@@ -25,7 +25,10 @@ addEventListener("fetch", fetchEvent => {
           await myCache.put(request, responseCopy);
         })()
       );
-      if (request.headers.get("Accept").includes("text/html")) {
+      if (
+        request.headers.get("Accept").includes("text/html") ||
+        request.headers.get("Accept").includes("text/markdown")
+      ) {
         try {
           return await responseFromFetch;
         } catch (error) {

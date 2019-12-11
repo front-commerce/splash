@@ -152,7 +152,7 @@ url: assets/logos/Inline/fc-logo_2018--inline.png
 title: Inline Logo (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Column/Inline/fc-logo_2018--inline@2x.png
+url: assets/logos/Inline/fc-logo_2018--inline@2x.png
 ```
 
 ```download
@@ -173,14 +173,14 @@ url: assets/logos/Inline/fc-logo_2018--inlineWhite.png
 title: Inline Logo White (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Column/Inline/fc-logo_2018--inlineWhite@2x.png
+url: assets/logos/Inline/fc-logo_2018--inlineWhite@2x.png
 ```
 
 ```download
 title: Inline Logo White (.png)
 subtitle: 4x
 span: 1
-url: assets/logos/Column/Inline/fc-logo_2018--inlineWhite@4x.png
+url: assets/logos/Inline/fc-logo_2018--inlineWhite@4x.png
 ```
 
 ## Avatar
@@ -242,7 +242,7 @@ url: assets/logos/Avatar/fc_logo_2018--avatar.png
 title: Avatar (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Column/Avatar/fc_logo_2018--avatar@2x.png
+url: assets/logos/Avatar/fc_logo_2018--avatar@2x.png
 ```
 
 ```download

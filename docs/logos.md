@@ -40,7 +40,7 @@ For a quick usage, `png` files are also available.
 ```image
 light: true
 span: 3
-src: "assets/logos/Column/fc-logo_2018--column@x1.png"
+src: "assets/logos/Column/fc-logo_2018--column.png"
 ```
 
 ```image
@@ -53,7 +53,7 @@ src: "assets/logos/Column/fc-logo_2018--columnWhite.png"
 title: Column Logo (.png)
 subtitle: 1x
 span: 1
-url: assets/logos/Column/fc-logo_2018--column@1x.png
+url: assets/logos/Column/fc-logo_2018--column.png
 ```
 
 ```download
@@ -81,14 +81,14 @@ url: assets/logos/Column/fc-logo_2018--columnWhite.png
 title: Column Logo White (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Column/fc-logo_2018--columnWhite@x2.png
+url: assets/logos/Column/fc-logo_2018--columnWhite@2x.png
 ```
 
 ```download
 title: Column Logo White (.png)
 subtitle: 4x
 span: 1
-url: assets/logos/Column/fc-logo_2018--columnWhite@x4.png
+url: assets/logos/Column/fc-logo_2018--columnWhite@4x.png
 ```
 
 ## Inline
@@ -152,14 +152,14 @@ url: assets/logos/Inline/fc-logo_2018--inline.png
 title: Inline Logo (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Column/Inline/fc-logo_2018--inline@x2.png
+url: assets/logos/Column/Inline/fc-logo_2018--inline@2x.png
 ```
 
 ```download
 title: Inline Logo (.png)
 subtitle: 4x
 span: 1
-url: assets/logos/Inline/fc-logo_2018--inline@x4.png
+url: assets/logos/Inline/fc-logo_2018--inline@4x.png
 ```
 
 ```download
@@ -173,14 +173,14 @@ url: assets/logos/Inline/fc-logo_2018--inlineWhite.png
 title: Inline Logo White (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Column/Inline/fc-logo_2018--inlineWhite@x2.png
+url: assets/logos/Column/Inline/fc-logo_2018--inlineWhite@2x.png
 ```
 
 ```download
 title: Inline Logo White (.png)
 subtitle: 4x
 span: 1
-url: assets/logos/Column/Inline/fc-logo_2018--inlineWhite@x4.png
+url: assets/logos/Column/Inline/fc-logo_2018--inlineWhite@4x.png
 ```
 
 ## Avatar
@@ -242,14 +242,14 @@ url: assets/logos/Avatar/fc_logo_2018--avatar.png
 title: Avatar (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Column/Avatar/fc_logo_2018--avatar@x2.png
+url: assets/logos/Column/Avatar/fc_logo_2018--avatar@2x.png
 ```
 
 ```download
 title: Avatar (.png)
 subtitle: 4x
 span: 1
-url: assets/logos/Avatar/fc_logo_2018--avatar@x4.png
+url: assets/logos/Avatar/fc_logo_2018--avatar@4x.png
 ```
 
 ```download
@@ -263,12 +263,12 @@ url: assets/logos/Avatar/fc_logo_2018--avatar-white.png
 title: Avatar White (.png)
 subtitle: 2x
 span: 1
-url: assets/logos/Avatar/fc_logo_2018--avatar-white@x2.png
+url: assets/logos/Avatar/fc_logo_2018--avatar-white@2x.png
 ```
 
 ```download
 title: Avatar White (.png)
 subtitle: 4x
 span: 1
-url: assets/logos/Avatar/fc_logo_2018--avatar-white@x4.png
+url: assets/logos/Avatar/fc_logo_2018--avatar-white@4x.png
 ```
